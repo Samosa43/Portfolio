@@ -59,17 +59,7 @@ transition: 0.7s;
    background-color: rgba(204, 131, 238, 0.716);
 }
 @media (max-width: 480px) {
-
-   #home{
-   height: fit-content;
-   }
-   #projects{
-      height: fit fit-content;
-   }
-   #about{
-      height: fit-content;
-   }
-   #contact{
-      height: fit-content;
-   }
- }
+  #home, #about, #projects, #contact {
+    height: fit-content;
+  }
+}
